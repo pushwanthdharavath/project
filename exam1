@@ -1,0 +1,7 @@
+docker --version
+
+docker pull vulnerables/web-dvwa
+
+docker run --rm -it -p 8080:80 vulnerables/web-dvwa
+
+http://localhost:8080
